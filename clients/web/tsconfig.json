@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"jsx": "react-jsx",
+		"module": "es2022",
+		"rootDir": "src"
+	},
+	"include": [ "src/**/*", "../styles/*" ],
+	"extends": "../../tsconfig.json"
+}

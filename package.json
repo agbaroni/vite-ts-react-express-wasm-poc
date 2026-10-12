@@ -1,0 +1,14 @@
+{
+	"devDependencies": {
+		"typescript": "7",
+		"vite": "8"
+	},
+	"name": "thmpoc",
+	"private": true,
+	"scripts": {
+		"build": "npm run build -w server && make -C clients/codes && npm run build -w clients/web && npm run build -w clients/pwa"
+	},
+	"type": "module",
+	"version": "1.0.0",
+	"workspaces": [ "clients/web", "clients/pwa", "server" ]
+}

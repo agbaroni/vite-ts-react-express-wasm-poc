@@ -1,0 +1,9 @@
+/clients/codes/main.js
+/clients/codes/main.wasm
+/clients/pwa/tsconfig.tsbuildinfo
+/clients/web/tsconfig.tsbuildinfo
+/node_modules
+/public/pwa
+/public/web
+/server/dist
+/server/tsconfig.tsbuildinfo

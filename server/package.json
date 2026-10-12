@@ -1,0 +1,14 @@
+{
+	"devDependencies": {
+		"@types/express": "5",
+		"@types/node": "24",
+		"esbuild": "0",
+		"express": "5"
+	},
+	"name": "thmpoc-server",
+	"private": true,
+	"scripts": {
+		"build": "tsc && esbuild --bundle --platform=node --target=node24 --outdir=dist --minify --tree-shaking=true --format=esm --banner:js=\"import{createRequire}from'node:module';const require=createRequire(import.meta.url);\" src/web.ts && esbuild --bundle --platform=node --target=node24 --outdir=dist --minify --tree-shaking=true --format=esm --banner:js=\"import{createRequire}from'node:module';const require=createRequire(import.meta.url);\" src/pwa.ts"
+	},
+	"type": "module"
+}

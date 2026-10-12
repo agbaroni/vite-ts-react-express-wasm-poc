@@ -1,0 +1,8 @@
+{
+	"compilerOptions": {
+		"module": "es2022",
+		"jsx": "react-jsx",
+		"rootDir": "src"
+	},
+	"extends": "../../tsconfig.json"
+}
