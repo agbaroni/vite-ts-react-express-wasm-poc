@@ -1,11 +1,13 @@
 {
 	"devDependencies": {
+		"@tailwindcss/vite": "4",
 		"@types/react": "19",
 		"@types/react-dom": "19",
 		"@vitejs/plugin-react": "6",
 		"react": "19",
 		"react-dom": "19",
-		"react-router": "8"
+		"react-router": "8",
+		"tailwindcss": "4"
 	},
 	"name": "thmpoc-client-web",
 	"private": true,
